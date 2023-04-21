@@ -10,14 +10,14 @@
 	<script>
 		function secondHighest(arr) {
 			//Write your code here
-			let max= Number.MIN_VALUE;
+			let max= Number.MAX_VALUE;
 			
 
 
 
 			
 			
-			let secondmax= Number.MIN_VALUE;
+			let secondmax= Number.MAX_VALUE;
 			for(let i=0;i<arr.length;i++){
 				if(arr[i]>max){
 					secondmax=max;
@@ -27,6 +27,7 @@
 			}return secondmax;
 			
 		}
+		
 
 		function Main() {
 			var n = prompt("Enter the number of elements");
